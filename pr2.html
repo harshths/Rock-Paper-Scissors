@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        body{
+            background-color: lightcyan;
+            
+        }
+        .box{
+            width: 220px;
+            height: 620px;
+            margin-top: 30px;
+            background-color: lightcoral;
+            border-radius: 100px;
+            border: 1px solid black;
+        }
+
+        .img4{
+            width: 100px;
+            height: 100px;
+            margin-top: 30px;
+            border: 1px solid black;
+            background-color: lightgreen;
+            border-radius: 100%;
+            padding: 30px;  
+        }
+
+        .img1{
+            width: 100px;
+            height: 100px;
+            margin-top: 30px;
+            border: 1px solid black;
+            background-color: lightgreen;
+            border-radius: 100%;
+            padding: 30px;  
+        }
+        .img2{
+            width: 150px;
+            height: 150px;
+            border: 1px solid black;
+            border-radius: 100%;
+            padding: 30px;
+            background-color: blue; 
+        }
+        .img3{
+            width: 150px;
+            height: 150px;
+            border: 1px solid black;
+            border-radius: 100%;
+            padding: 30px;
+            background-color: red;   
+
+        }
+
+        /* #scissors{
+            padding: 10px;
+        } */
+
+        textarea{
+            width: 500px;
+            height: 200px;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+
+</head>
+<body>
+    <center>
+        <div class="container">
+            <h1 style="font-size: 100px; color: blue; margin: 30px;">You</h1>
+            <br>
+            <div class="box">
+
+                <img class="img1" id="rock" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlZOWMDyI-Q4l0UFgNSb7yIEo6rC7nt-cK-ER5CxaFB2hPm95xJxyz42cv5xCwap7bfdw&usqp=CAU">
+    
+                <img class="img1" id="paper" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeVvJtzqNqXpVZcsISY-pN8e8UPeP7AK5i_RiqRsh9j27GrQBayAeaX12mILTkdw40RIA&usqp=CAU">
+                
+                <img class="img1" id="scissors" src="https://www.kindpng.com/picc/m/502-5025794_rock-paper-scissors-clipart-hd-png-download.png">
+    
+            </div>
+            <br>
+            <h1 style="font-size: 100px; color: red; padding: 70px;">Vs</h1>
+            <br>
+            <div class="box">
+    
+                <img class="img4" id="rock2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlZOWMDyI-Q4l0UFgNSb7yIEo6rC7nt-cK-ER5CxaFB2hPm95xJxyz42cv5xCwap7bfdw&usqp=CAU">
+    
+                <img class="img4" id="paper2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeVvJtzqNqXpVZcsISY-pN8e8UPeP7AK5i_RiqRsh9j27GrQBayAeaX12mILTkdw40RIA&usqp=CAU">
+                
+                <img class="img4" id="scissors2" src="https://www.kindpng.com/picc/m/502-5025794_rock-paper-scissors-clipart-hd-png-download.png">
+    
+            </div>
+            <br>
+            <h1 style="font-size: 100px; color: blue; padding: 30px;">Bot</h1>
+
+        </div>
+    </center>
+    <script src="pr2.js"></script>
+</body>
+</html>
